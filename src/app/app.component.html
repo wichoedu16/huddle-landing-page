@@ -1,15 +1,36 @@
-<app-header></app-header>
+<header>
 
+    <app-header></app-header>
+
+</header>
 <main>
-    <app-card-page title="Grow Together"
-        text="Generate meaningul discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feddback form."
-        imagen="/assets/imgs/1.jpeg"></app-card-page>
-    <app-card-page title="Flowing Conversations"
-        text="You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow."
-        imagen="/assets/imgs/2.jpeg"></app-card-page>
-    <app-card-page title="Your Users"
-        text="It takes no times at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting inmediately."
-        imagen="/assets/imgs/3.jpeg"></app-card-page>
+    <div class="container">
+        <app-card-page>
+            <app-card-content title="Grow Together"
+                text="Generate meaningul discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feddback form."
+                imagen="/assets/imgs/1.jpeg"></app-card-content>
+        </app-card-page>
+        <app-card-page>
+            <app-card-content title="Flowing Conversations"
+                text="You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow."
+                imagen="/assets/imgs/2.jpeg"></app-card-content>
+        </app-card-page>
+        <app-card-page>
+            <app-card-content title="Your Users"
+                text="It takes no times at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting inmediately."
+                imagen="/assets/imgs/3.jpeg"></app-card-content>
+        </app-card-page>
+        
+        <app-card-page>            
+            <p>Ready To Build Your Comunnity?</p>
+            <app-option-button variant="primary" text="Get started for free"></app-option-button>
+        </app-card-page>
+
+        <app-card-page>            
+            <app-option-button variant="secondary" text="Secondary button"></app-option-button>
+        </app-card-page>
+    </div>
+
 </main>
 
-<footer></footer>
+    <app-footer></app-footer>

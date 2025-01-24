@@ -1,0 +1,11 @@
+.primary{
+    border: none;
+    background-color: coral;
+    color: white;
+}
+
+.secondary{
+    border: none;
+    background-color: white;
+    color: black;
+}

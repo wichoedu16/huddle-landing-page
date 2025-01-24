@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+header{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 26em;
+    height: 20em; 
+    gap: 2em;
+}
+
+footer{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 100vh;
+}

@@ -1,7 +1,5 @@
-
-<main>
-    <div class="imagen">{{imagen}}</div>
-    <p class="titulo">{{titulo}}</p>
-    <p class="texto">{{texto}}</p>
-</main>
-
+<div class="card">
+    <img [src]="imagen" alt="{{ title }}" class="card-image">
+    <h2 class="card-title">{{ title }}</h2>
+    <p class="card-text">{{ text }}</p>
+  </div>

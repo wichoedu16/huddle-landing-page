@@ -6,8 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card-page.component.css']
 })
 export class CardPageComponent {
-  @Input() titulo: string = 'Title'
-  @Input() texto: string = 'Text'
-  @Input() imagen: string = 'Image'
-
+  @Input() title: string = '';
+  @Input() text: string = '';
+  @Input() imagen: string = '';
 }
